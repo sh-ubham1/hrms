@@ -1,0 +1,61 @@
+# ----------------------------
+# Python / Django
+# ----------------------------
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+db.sqlite3
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Environment variables
+.env
+.env.*
+
+# Django static files
+staticfiles/
+media/
+
+# Migrations (optional if you want clean repo)
+**/migrations/*.pyc
+**/migrations/__pycache__/
+
+# ----------------------------
+# Node / React
+# ----------------------------
+
+node_modules/
+dist/
+build/
+.vite/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ----------------------------
+# OS Files
+# ----------------------------
+
+.DS_Store
+Thumbs.db
+
+# ----------------------------
+# IDE / Editor
+# ----------------------------
+
+.vscode/
+.idea/
+
+# ----------------------------
+# Deployment
+# ----------------------------
+
+.vercel
